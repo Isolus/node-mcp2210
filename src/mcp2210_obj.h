@@ -3,7 +3,7 @@
 
 #include <node.h>
 #include <node_object_wrap.h>
-#include <hidapi.h>
+#include <hidapi/hidapi.h>
 
 typedef uint8_t byte;
 

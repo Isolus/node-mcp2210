@@ -7,9 +7,13 @@
     {
       "target_name": "MCP2210",
       "sources": [ "src/mcp2210.cc", "src/mcp2210_obj.cc" ],
-      "libraries": [ "/usr/lib/libhidapi-libusb.so" ], #[ "-lhidapi" ],
-      "include_dirs": [
-        "include", "/usr/include/hidapi/"
+      "conditions": [
+        ['OS=="mac"', {
+          "libraries": [ "-lhidapi" ],
+        }],
+        ['OS=="linux"', {
+          "libraries": [ "-hidapi-libusb" ],
+        }],
       ],
     },
     {

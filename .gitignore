@@ -1,2 +1,3 @@
 /build
 *.node
+npm-debug.log
