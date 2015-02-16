@@ -1,0 +1,17 @@
+{
+  "name": "node-mcp2210",
+  "version": "1.0.0",
+  "description": "This is an open source node.js library for Microchip's USB-to-SPI protocol converter MCP2210.",
+  "keywords": ["MCP2210", "SPI", "USB"],
+  "author": "Isolus",
+  "main": "./mcp2210",
+  "binary": {
+  	"module_name": "MCP2210",
+  	"module_path": "./"
+  },
+  "scripts": {
+    "test": "node test/mcp2210.js",
+    "install": "node-gyp rebuild"
+  },
+  "engines": {"node":">=0.12.0"}
+}
