@@ -3,7 +3,7 @@ Node.js library for Microchip's USB-to-SPI protocol converter MCP2210
 
 ## Installation
 
-You need a working installation of [http://www.signal11.us/oss/hidapi/]HIDAPI. Then you can install node-mcp2210 with npm: `npm install node-mcp2210`.
+You need a working installation of [HIDAPI](http://www.signal11.us/oss/hidapi/). Then you can install node-mcp2210 with npm: `npm install node-mcp2210`.
 
 ## Example
 
@@ -107,4 +107,4 @@ dev.close();
 
 ## Acknowledgement
 
-The library is inspired by the C++ Library [https://github.com/kerrydwong/MCP2210-Library](MCP2210-Library).
+The library is inspired by the C++ Library [MCP2210-Library](https://github.com/kerrydwong/MCP2210-Library).
