@@ -10,7 +10,7 @@ You need a working installation of [HIDAPI](http://www.signal11.us/oss/hidapi/).
 This a complete example to change the chip and SPI transfer settings and to transfer some bytes:
 
 ```javascript
-var MCP2210 = require('MCP2210'),
+var MCP2210 = require('node-mcp2210'),
 	mcp2210 = MCP2210.MCP2210,
 	dev = new mcp2210();
 
