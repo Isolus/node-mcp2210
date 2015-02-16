@@ -12,7 +12,7 @@
           "libraries": [ "-lhidapi" ],
         }],
         ['OS=="linux"', {
-          "libraries": [ "-hidapi-libusb" ],
+          "libraries": [ "-lhidapi-libusb" ],
         }],
       ],
     },
